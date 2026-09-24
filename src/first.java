@@ -4,10 +4,10 @@ public class first {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double a = scanner.nextDouble();
+        double z = scanner.nextDouble();
         double b = scanner.nextDouble();
 
-        double c = Math.sqrt(a * a + b * b);
+        double c = Math.sqrt(z * z + b * b);
 
         System.out.println(c);
     }
